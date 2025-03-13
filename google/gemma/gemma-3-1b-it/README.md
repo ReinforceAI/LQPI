@@ -186,15 +186,6 @@ This analysis framework offers several practical applications for LLM developers
 4. **Prompt Engineering Guidance**: Understand the transition dynamics to design more effective prompts
 5. **Failure Mode Prediction**: Identify the critical thresholds where model behavior becomes unstable
 
-## Getting Started
-
-To analyze your own models using this framework:
-
-1. Install the package: `pip install llm-quantum-metrics`
-2. Instrument your model: `model_instrumentor = ModelInstrumentor(model, config)`
-3. Run experiments: `experiment = PersonalityMappingExperiment(model_instrumentor)`
-4. Generate metrics: `metrics = LQPIMetrics.from_experiment(experiment)`
-5. Visualize results: `visualizer = MetricsVisualizer(metrics)`
 
 ## Next Steps
 
